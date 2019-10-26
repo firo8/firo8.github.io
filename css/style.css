@@ -1,0 +1,22 @@
+header {
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#vin {
+    font-size: 2em;
+    font-family: monospace;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid blue;
+    padding: 5px;
+}
+
+#button {
+    margin: 10px;
+    
+}
+h1 {
+    font-family: sans-serif;
+}
