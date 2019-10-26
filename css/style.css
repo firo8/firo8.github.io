@@ -1,3 +1,13 @@
+@Media only screen and (max-width: 600px){
+    body {
+        font-size: 3em
+    }
+}
+
+body {
+    font-family: sans-serif;
+}
+
 header {
     padding-top: 50px;
     width: 100%;
@@ -16,7 +26,4 @@ header {
 #button {
     margin: 10px;
     
-}
-h1 {
-    font-family: sans-serif;
 }
