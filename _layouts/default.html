@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Test</title>
-</head>
-<body>
-This is robhoek.nl
-</body>
-  <!--{% include head.html %}-->
-
-  <!--<body>-->
-
-    <!--{% include header.html %}-->
-
-    <!--<div class="page-content">-->
-      <!--<div class="wrapper">-->
-        <!--{{ content }}-->
-      <!--</div>-->
-    <!--</div>-->
-
-    <!--{% include footer.html %}-->
-
-  <!--</body>-->
-
+    <head>
+        <title>Hyundai Pricing</title>
+        <script>
+            function goTo() {
+                var vin = document.getElementById("vin");
+                var link = "https://www.hyundai.com/au/en/find-a-dealer/book-a-service?vin=" + vin.value + "&webKey=3487&dealerName=Doncaster+Hyundai&dealerAddress=825+Doncaster+road%2C+Doncaster+VIC+3108";
+                
+                window.open(link,link);
+            }
+        </script>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Hyundai Pricing</h1>
+            <input type="text" id="vin" size="17" spellcheck="false"><br>
+            <input type="button" value="Search" onclick="goTo();" id="button">
+        </header>
+    </body>
 </html>
